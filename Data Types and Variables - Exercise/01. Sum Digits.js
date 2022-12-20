@@ -12,6 +12,7 @@
 // }
 // sumDigits (245678)
 
+//othre solution 
 function sumDigits (number){
 let numberAsString = number.toString(); // or number + '';
 let sumOfDigits = 0;
