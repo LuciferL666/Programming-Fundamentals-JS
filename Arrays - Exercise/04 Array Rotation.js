@@ -1,12 +1,14 @@
-// function arrayRotation (array, rotate){
+ function arrayRotation (array, rotate){
 
-//     for(let i = 0; i < rotate; i++){
-//         let movingDigits = array.shift();
-//         array.push(movingDigits)
-//     }
-// console.log(array.join(' '));
-// }
-// arrayRotation ([51, 47, 32, 61, 21], 2)
+     for(let i = 0; i < rotate; i++){
+         let movingDigits = array.shift();
+         array.push(movingDigits)
+     }
+ console.log(array.join(' '));
+ }
+ arrayRotation ([51, 47, 32, 61, 21], 2)
+
+//other solution
 
 // function arrayRotation (arrayToRotate, rotations){
 
@@ -19,11 +21,3 @@
 // }
 // arrayRotation ([51, 47, 32, 61, 21], 2)
 
-function arrayRotation (array, rotate){
-    for(let i = 0; i < rotate; i++){
-        let currentNumber = array[i];
-        array.push(currentNumber)
-    }
-    console.log(currentNumber.join(' '));
-}
-arrayRotation ([51, 47, 32, 61, 21], 2)
