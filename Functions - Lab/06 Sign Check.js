@@ -1,14 +1,25 @@
 function positiveOrNegative (numberOne, numberTwo, numberThree){
-if(numberOne > 0 && numberTwo > 0 && numberThree < 0){
-    console.log('Negative');
+    let result = ''
+if(numberOne == 0 || numberTwo == 0 || numberThree == 0){
+    result = 'Positive';
+}else if(numberOne > 0 && numberTwo > 0 && numberThree > 0){
+    result = 'Positive';
+}else if(numberOne < 0 && numberTwo < 0 && numberThree < 0){
+    result = 'Negative';
+}else if(numberOne > 0 && numberTwo > 0 && numberThree < 0){
+    result = 'Negative'
+}else if(numberOne > 0 && numberTwo < 0 && numberThree > 0){
+    result = 'Negative'
+}else if(numberOne > 0 && numberTwo < 0 && numberThree < 0){
+    result = 'Positive'
+}else if(numberOne < 0 && numberTwo > 0 && numberThree > 0){
+    result = 'Negative'
+}else if(numberOne < 0 && numberTwo > 0 && numberThree < 0){
+    result = 'Positive'
 }else if(numberOne < 0 && numberTwo < 0 && numberThree > 0){
-    console.log('Positive');
-}else if (numberOne < 0 && numberTwo < 0 && numberThree < 0){
-    console.log('Negative');
-}else if (numberOne < 0 && numberTwo > 0 && numberThree > 0){
-    console.log('Negative');
+    result = 'Positive'
 }
-
+console.log(result);
 }
 positiveOrNegative(5,12,-15);
 positiveOrNegative(-6,-12,14);
