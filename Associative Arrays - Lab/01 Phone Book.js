@@ -21,23 +21,23 @@ phoneBook (['Tim 0834212554',
 'Tim 0876566344'])
 
 //other solution
-function phoneBook (input){
-let phoneBook = {}
+// function phoneBook (input){
+// let phoneBook = {}
 
-for (const entry of input) {
-    let [name, phone] = entry.split(' ')
+// for (const entry of input) {
+//     let [name, phone] = entry.split(' ')
     
-    phoneBook[name] = phone
-}
-for (const name in phoneBook) {
-    console.log(`${name} -> ${phoneBook[name]}`);
+//     phoneBook[name] = phone
+// }
+// for (const name in phoneBook) {
+//     console.log(`${name} -> ${phoneBook[name]}`);
         
-    }
-}
-phoneBook (['Tim 0834212554',
+//     }
+// }
+// phoneBook (['Tim 0834212554',
 
-'Peter 0877547887',
+// 'Peter 0877547887',
 
-'Bill 0896543112',
+// 'Bill 0896543112',
 
-'Tim 0876566344'])
+// 'Tim 0876566344'])
