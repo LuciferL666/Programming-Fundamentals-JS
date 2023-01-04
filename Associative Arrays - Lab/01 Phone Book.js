@@ -20,6 +20,7 @@ phoneBook (['Tim 0834212554',
 
 'Tim 0876566344'])
 
+//other solution
 function phoneBook (input){
 let phoneBook = {}
 
