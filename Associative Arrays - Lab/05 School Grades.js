@@ -33,7 +33,7 @@ schoolGrades(['Lilly 4 6 6 5',
     'Tammy 2 4 3',
     'Tim 6 6'])
 
-// with object solution
+// with object solution 
 // function schoolGrades(input) {
 
 //     let studentsGrades = {}
