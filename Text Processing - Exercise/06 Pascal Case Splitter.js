@@ -20,6 +20,7 @@ pascalCaseSplitter('SplitMeIfYouCanHaHaYouCantOrYouCan')
 // }
 // pascalCaseSplitter('SplitMeIfYouCanHaHaYouCantOrYouCan')
 
+//other solution
 // function pascalCaseSplitter (text){
 //    let result = text[0]
 // for (const current of text) {
