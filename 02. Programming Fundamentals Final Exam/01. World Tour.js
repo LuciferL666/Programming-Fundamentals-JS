@@ -44,7 +44,7 @@ worldTour(["Hawai::Cyprys-Greece",
 "Remove Stop:11:16",
 "Switch:Hawai:Bulgaria",
 "Travel"])
-// //
+//
 // worldTour(["Albania:Bulgaria:Cyprus:Deuchland",
 // "Add Stop:3:Nigeria",
 // "Remove Stop:4:8",
