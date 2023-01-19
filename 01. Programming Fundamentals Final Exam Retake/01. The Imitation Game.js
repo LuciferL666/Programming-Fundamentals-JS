@@ -23,6 +23,7 @@ function theImitationGame(input) {
   console.log(`The decrypted message is: ${message}`);
 }
 theImitationGame(["zzHe", "ChangeAll|z|l", "Insert|2|o", "Move|3", "Decode"]);
+
 //   theImitationGame([
 //     'owyouh',
 //     'Move|2',
