@@ -29,6 +29,7 @@ arrayModifier([
   "decrease",
   "end",
 ]);
+
 //   arrayModifier([
 //     '1 2 3 4',
 //     'swap 0 1',
