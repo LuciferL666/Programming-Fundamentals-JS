@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 function worldTour(input) {
   let data = input.shift();
   let commandsLine = input.shift();
