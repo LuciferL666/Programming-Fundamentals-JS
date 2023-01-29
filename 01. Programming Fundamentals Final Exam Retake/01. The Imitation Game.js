@@ -10,7 +10,7 @@ function theImitationGame(input) {
     } else if (command === "Insert") {
       let index = Number(line[1]);
       let letter = line[2]; 
-      let start = message.substring(0, index);
+      let start = message.substring(0, index); 
       let end = message.substring(index);
       message = start + letter + end;
     } else if (command === "Move") {
