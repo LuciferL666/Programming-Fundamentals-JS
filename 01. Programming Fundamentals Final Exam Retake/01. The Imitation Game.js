@@ -9,7 +9,7 @@ function theImitationGame(input) {
       message = message.split(oldLetter).join(newLetter);
     } else if (command === "Insert") {
       let index = Number(line[1]);
-      let letter = line[2];
+      let letter = line[2]; 
       let start = message.substring(0, index);
       let end = message.substring(index);
       message = start + letter + end;
