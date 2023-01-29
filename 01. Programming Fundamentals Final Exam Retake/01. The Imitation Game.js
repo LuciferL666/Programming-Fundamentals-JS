@@ -5,7 +5,7 @@ function theImitationGame(input) {
     let command = line[0];
     if (command === "ChangeAll") {
       let oldLetter = line[1]; 
-      let newLetter = line[2];
+      let newLetter = line[2]; 
       message = message.split(oldLetter).join(newLetter);
     } else if (command === "Insert") {
       let index = Number(line[1]);
