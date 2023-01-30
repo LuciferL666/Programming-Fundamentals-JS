@@ -33,7 +33,7 @@ function plantDiscovery(input) {
         plants[plant].rarity = newRarity;
       } else {
         console.log("error");
-      } 
+      }
     } else if (command === "Reset") {
       if (plants.hasOwnProperty(plant)) {
         plants[plant].rating = [];
