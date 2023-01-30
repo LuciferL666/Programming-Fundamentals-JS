@@ -6,7 +6,7 @@ function plantDiscovery(input) {
     let line = input.shift().split("<->");
     let plant = line[0];
     let rarity = Number(line[1]);
-
+ 
     if (plants.hasOwnProperty(plant)) {
       plants[plant].rarity = rarity;
     } else {
