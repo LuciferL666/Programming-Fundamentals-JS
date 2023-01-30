@@ -1,7 +1,7 @@
 function plantDiscovery(input) {
   let n = Number(input.shift());
   let plants = {};
-
+ 
   for (let i = 0; i < n; i++) {
     let line = input.shift().split("<->");
     let plant = line[0];
