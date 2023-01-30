@@ -1,4 +1,4 @@
-function plantDiscovery(input) { 
+function plantDiscovery(input) {
   let n = Number(input.shift());
   let plants = {};
  
