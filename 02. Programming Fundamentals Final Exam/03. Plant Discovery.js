@@ -27,7 +27,7 @@ function plantDiscovery(input) {
       } else {
         console.log("error");
       }
-    } else if (command === "Update") {
+    } else if (command === "Update") { 
       let newRarity = Number(plantInfo[1]);
       if (plants.hasOwnProperty(plant)) {
         plants[plant].rarity = newRarity;
