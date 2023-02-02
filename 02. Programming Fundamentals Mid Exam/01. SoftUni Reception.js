@@ -1,4 +1,4 @@
-function softUniReception(input) {  
+function softUniReception(input) {   
   let firstEmploy = Number(input[0]);
   let secondEmploy = Number(input[1]);
   let thirdEmploy = Number(input[2]);
