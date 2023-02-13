@@ -1,4 +1,4 @@
-function destinationMapper(input) {  
+function destinationMapper(input) {   
   let pattern = /([=|\/])(?<name>[A-Z][A-Za-z]{2,})\1/g;
   let match = pattern.exec(input);
   let output = [];
