@@ -1,5 +1,5 @@
 function secretChat(input) {
-    let text = input.shift();
+    let text = input.shift(); 
 
     for (const commands of input) {
         let [command, start, end] = commands.split(':|:')
