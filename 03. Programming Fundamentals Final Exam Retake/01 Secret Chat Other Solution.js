@@ -1,4 +1,4 @@
-function secretChat(input) {
+function secretChat(input) { 
     let text = input.shift();
 
     for (const commands of input) {
