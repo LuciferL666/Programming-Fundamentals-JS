@@ -1,4 +1,4 @@
-function theImitationGame(input) {
+function theImitationGame(input) { 
   while (input[0] !== "Decode") { 
     let line = input.shift().split("|");
     let command = line[0];
