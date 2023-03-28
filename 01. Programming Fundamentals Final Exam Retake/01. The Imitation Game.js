@@ -1,5 +1,5 @@
 function theImitationGame(input) {
-  while (input[0] !== "Decode") {
+  while (input[0] !== "Decode") { 
     let line = input.shift().split("|");
     let command = line[0];
     if (command === "ChangeAll") {
