@@ -1,4 +1,4 @@
-function guineaPig(input) { 
+function guineaPig(input) {  
     let food = Number(input[0]) * 1000;
     let hay = Number(input[1]) * 1000;
     let cover = Number(input[2]) * 1000;
