@@ -30,3 +30,8 @@ fancyBarcodes([
     "@#Invalid_IteM@#",
     "@#ValiditeM@#",
 ]);
+fancyBarcodes
+(["3",
+"@#FreshFisH@#",
+"@###Brea0D@###",
+"@##Che4s6E@##"])
